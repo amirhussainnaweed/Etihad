@@ -6,7 +6,7 @@ import Part from "./Part";
 function App() {
   const [showMenu, setShowMenu] = useState(false);
   return (
-    <>
+    <div className="relative">
       <div
         className={`lg:hidden transition duration-1000 fixed inset-0 bg-black/30 backdrop-blur-sm z-[999] transition-opacity duration-300 ${
           showMenu
@@ -15,11 +15,13 @@ function App() {
         }`}
       ></div>
 
-      <div className="relative z-[1000]">
+      <div className="relative z-[10]">
         <Hero onMenuToggle={setShowMenu} />
       </div>
-      <Part />
-    </>
+      <div className="-mt-60 z-[20] relative">
+        <Part />
+      </div>
+    </div>
   );
 }
 

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
+import Part from "./Part";
 
 const Hero = ({ onMenuToggle }) => {
   const [show, setShow] = useState(false);
@@ -58,7 +59,7 @@ const Hero = ({ onMenuToggle }) => {
 
         {/* ===============================================Hero main section=============================================== */}
 
-        <section className="flex gap-5 flex-col lg:flex-row lg:justify-between items-center lg:items-start mx-auto px-10 lg:px-4 pb-20 max-w-7xl">
+        <section className="relative flex gap-5 flex-col lg:flex-row lg:justify-between items-center lg:items-start mx-auto px-10 lg:px-4 pb-20 max-w-7xl">
           <div className="flex flex-col gap-10 w-[360px] md:w-[460px] lg:w-[660] xl:w-[750px] mt-[50px] lg:mt-[100px]">
             <p className="text-[#FF6551] font-bold text-[18px] leading-[144%] tracking-[0.1px]">
               برای آینده بهتر
