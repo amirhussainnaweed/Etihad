@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Menu } from "lucide-react";
-import Part from "./Part";
 
 const Hero = ({ onMenuToggle }) => {
   const [show, setShow] = useState(false);
