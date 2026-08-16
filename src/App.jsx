@@ -3,6 +3,7 @@ import "./App.css";
 import Hero from "./Hero";
 import Part from "./Part";
 import Quality from "./Quality";
+import Partners from "./Partners";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -22,7 +23,8 @@ function App() {
       <div className="-mt-10 lg:-mt-60 z-[20] relative">
         <Part />
       </div>
-      <Quality/>
+      <Quality />
+      <Partners />
     </div>
   );
 }
