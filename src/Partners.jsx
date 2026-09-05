@@ -13,24 +13,24 @@ const partners = [
   },
   {
     id: 3,
-    src: "partners/reddit.png",
-    yellowSrc: "partners/reddit.yellow.png",
+    src: "partners/muslim.png",
+    yellowSrc: "partners/muslim.yellow.png",
   },
   {
     id: 4,
-    src: "partners/leaf.png",
-    yellowSrc: "partners/leaf.yellow.png",
+    src: "partners/amazon.png",
+    yellowSrc: "partners/amazon.yellow.png",
   },
   {
     id: 5,
-    src: "partners/ly.png",
-    yellowSrc: "partners/ly.yellow.png",
+    src: "partners/amazon.png",
+    yellowSrc: "partners/amazon.yellow.png",
   },
 ];
 
 const Partners = () => {
   return (
-    <div className="flex flex-wrap justify-between items-center mx-auto px-10 lg:px-4 pb-20 pt-10 max-w-7xl">
+    <div className="mt-[100px] flex flex-wrap gap-4 justify-center lg:justify-between items-center mx-auto px-10 lg:px-4 pb-20 pt-10 max-w-7xl">
       {partners.map((map) => (
         <div className="relative" key={map.id}>
           <div className="z-20 hover:opacity-0 transition duration-300 w-[150px] h-[142px] absolute">
