@@ -24,7 +24,7 @@ const partArray = [
 const Part = () => {
   return (
     <div dir="rtl" className="flex justify-center items-center mx-auto px-10 lg:px-4 pb-20 pt-10 max-w-7xl">
-      <div className="flex lg:justify-between justify-center w-full flex-wrap gap-6">
+      <div className="flex xl:justify-between justify-center w-full flex-wrap gap-6">
         {
         partArray.map((item) => (
           <div key={item.id} className="bg-[#fff] w-[328px] h-[300px] px-10 justify-center items-start gap-2 shadow-xl shadow-gray-300 flex flex-col">

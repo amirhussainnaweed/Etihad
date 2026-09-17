@@ -32,7 +32,7 @@ const WeOffer = () => {
         <h2 className="text-white text-[40px] font-bold leading-[50px] tracking-[0.2px]">
           با پیوستن به خانواده اتحاد میتوانند تا :
         </h2>
-        <div className="flex justify-between flex-wrap">
+        <div className="flex justify-center xl:justify-between flex-wrap w-full gap-6">
           {cards.map((item) => {
             return (
               <div
