@@ -5,6 +5,7 @@ import Part from "./Part";
 import Quality from "./Quality";
 import Partners from "./Partners";
 import WeOffer from "./WeOffer";
+import Games from "./Games";
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -27,6 +28,7 @@ function App() {
       <Quality />
       <Partners />
       <WeOffer />
+      <Games />
     </div>
   );
 }
