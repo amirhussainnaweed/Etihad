@@ -40,7 +40,7 @@ const Games = () => {
           <button
             type="button"
             aria-pressed={activeSection === "educational"}
-            className={`relative z-10 flex flex-1 items-center justify-center gap-2 rounded-full px-3 py-3 text-xs font-medium transition-colors duration-300 ease-in-out sm:text-sm md:text-base ${
+            className={`relative z-10 flex flex-1 items-center justify-center gap-2 rounded-full px-3 py-3 text-xs font-medium transition-colors duration-300 ease-in-out sm:text-sm md:text-base cursor-pointer ${
               activeSection === "fun" ? "text-white" : "text-gray-600"
             }`}
             onClick={() => setActiveSection("fun")}
@@ -53,7 +53,7 @@ const Games = () => {
           <button
             type="button"
             aria-pressed={activeSection === "fun"}
-            className={`relative z-10 flex flex-1 items-center justify-center gap-2 rounded-full px-3 py-3 text-xs font-medium transition-colors duration-300 ease-in-out sm:text-sm md:text-base ${
+            className={`relative z-10 flex flex-1 items-center justify-center gap-2 rounded-full px-3 py-3 text-xs font-medium transition-colors duration-300 ease-in-out sm:text-sm md:text-base cursor-pointer ${
               activeSection === "educational" ? "text-white" : "text-gray-600"
             }`}
             onClick={() => setActiveSection("educational")}
